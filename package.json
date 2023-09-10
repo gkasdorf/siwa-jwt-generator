@@ -1,0 +1,17 @@
+{
+  "name": "siwa-jwt-generator",
+  "version": "1.0.0",
+  "description": "A tool to generate Sign In With Apple JWT tokens",
+  "main": "index.js",
+  "repository": "https://github.com/gkasdorf/siwa-jwt-generator.git",
+  "author": "gkasdorf",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.11",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "type": "commonjs",
+  "bin": {
+    "siwa-jwt-generator": "./index.js"
+  }
+}
